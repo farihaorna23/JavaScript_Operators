@@ -50,3 +50,26 @@ console.log(result6); //FrodoBaggins
 console.log("EXERCISE 3:\n==========\n");
 
 // YOUR CODE HERE
+let val = 5;
+let str3 = "5";
+let str4 = "five";
+let isAwake = false;
+
+//What is the value of: val == str3?
+console.log(val == str3); //true
+//What is the value of: val === str3?
+console.log(val === str3); //false
+//What is the value of: !isAwake?
+console.log(!isAwake); //true
+//What is the value of: ("eleven" == str4 && val >= str3)
+console.log("eleven" == str4 && val >= str3); //false
+//What is the value of: (!isAwake || isAwake)?
+console.log(!isAwake || isAwake); //true
+//What is the value of: 0 == false?
+console.log(0 == false); //true
+//What is the value of: 0 === false?
+console.log(0 === false); //false
+//What is the value of: 0 != false?
+console.log(0 != false); //false
+//What is the value of 0 !== false?
+console.log(0 !== false); //true
